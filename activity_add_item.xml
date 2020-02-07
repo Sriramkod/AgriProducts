@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".AddItem">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_gravity="bottom"
+        android:text="Add an Item"
+        android:textAlignment="center"
+        android:textColor="#F71404"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Select any item:"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:background="#fff"
+        android:id="@+id/planets_spinner"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="Quantity:"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:background="#fff"
+        android:id="@+id/q"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Enter the Quantity in Kg's"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Price"
+        android:textColor="#fff"
+        android:textSize="30dp" />
+
+    <EditText
+        android:background="#fff"
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter the Price in rupees:"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FF0101"
+        android:text="ADD THIS ITEM"
+        android:textSize="20dp" />
+
+</LinearLayout>

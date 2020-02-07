@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderNow">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="236dp"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="455dp"
+        app:srcCompat="@drawable/onion" />
+
+    <TextView
+        android:id="@+id/item"
+
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="380dp"
+        android:text=""
+
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="118dp"
+        android:ems="10"
+        android:hint="Enter no of kgs.."
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="189dp"
+        android:text="TextView"
+        android:textSize="25dp"
+        android:textAlignment="textStart"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="255dp"
+        android:text="TextView"
+        android:textSize="30dp"
+        android:textAlignment="textStart"
+        android:textColor="#000" />
+
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/FarmerName"
+        android:layout_width="352dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="320dp"
+        android:textAlignment="textStart"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="123dp"
+        android:text="Requirement = "
+        android:textAlignment="textStart"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="21dp"
+        android:text="Order" />
+
+</RelativeLayout>

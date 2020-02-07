@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ViewItem_Farmer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:textColor="#FC1502"
+            android:textAlignment="center"
+
+            android:text="Select any of the below items"
+            />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+android:src="@drawable/red_chilli"
+    android:onClick="red_chilli"
+    android:id="@+id/chilli"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/onion"
+        android:onClick="onion"
+        android:id="@+id/onion"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/turmeric"
+        android:id="@+id/turmeric"
+        android:onClick="turmeric"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/rice"
+        android:id="@+id/rice"
+        android:onClick="rice"
+        />
+    <ImageView
+        android:onClick="wheat"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/wheat"
+        android:id="@+id/wheat"
+        />
+    <ImageView
+        android:onClick="maize"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/maize"
+        android:id="@+id/maize"
+        />
+        <ImageView
+            android:onClick="ground"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/groundnut"
+            android:id="@+id/ground"
+            />
+    </LinearLayout>
+</ScrollView>
